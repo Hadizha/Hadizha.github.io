@@ -4,6 +4,8 @@
 .card{
     margin-bottom: 30px;
     margin-top: 30px;
+    border-radius: 15px;
+    transition: .9s all;
 }
 .footer{
     padding-top: 30px;
@@ -11,4 +13,27 @@
 }
 .main-contacts{
     margin-top: 100px;
+}
+.main-aboutus{
+    margin-top: 100px
+}
+.card:hover{
+    box-shadow: 10px 10px 30px lightgray !important; 
+}
+.text{
+    text-align: center;
+    margin-top: 30px;
+}
+.text2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-primary {
+    background: pink;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: rgb(211, 133, 146);
 }
