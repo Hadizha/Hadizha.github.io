@@ -88,3 +88,20 @@
     vertical-align: middle;
     display: none;
 }
+
+@media only screen and (max-device-width: 480px) {
+    .item-content {
+            min-width: 1px;
+            width: 100%;
+            overflow: scroll;
+            max-height: 600px;
+    }
+
+    .item-close {
+
+    }
+
+    .item-info {
+        flex-direction: column;
+    }
+}
